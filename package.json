@@ -1,0 +1,20 @@
+{
+	"name": "distraction-action",
+	"version": "0.0.1",
+	"main": "src/index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "wrangler deploy",
+		"dev": "wrangler deploy && wrangler tail"
+	},
+	"dependencies": {
+		"@buape/carbon": "0.1.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@cloudflare/workers-types": "^4.20240821.1",
+		"typescript": "5.5.4",
+		"wrangler": "3.73.0"
+	}
+}

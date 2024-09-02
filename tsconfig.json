@@ -1,0 +1,40 @@
+{
+	"include": [
+		"src/**/*.ts",
+		"src/*.ts"
+	],
+	"compilerOptions": {
+		"allowJs": false,
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+		"lib": [
+			"ES2022",
+			"DOM",
+			"DOM.Iterable"
+		],
+		"module": "NodeNext",
+		"moduleDetection": "force",
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "dist",
+		"preserveWatchOutput": true,
+		"resolveJsonModule": true,
+		"rootDir": ".",
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es2022",
+		"types": [
+			"@cloudflare/workers-types"
+		]
+	},
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"mute-me.d.ts","sourceRoot":"","sources":["../../../src/commands/mute-me.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,gCAAgC,EAAgC,OAAO,EAAE,KAAK,kBAAkB,EAAE,MAAM,eAAe,CAAC;AAEtI,qBAAa,MAAO,SAAQ,OAAO;IAClC,IAAI,SAAY;IAChB,WAAW,SAA4B;IACvC,KAAK,UAAO;IAEZ,OAAO,EAAE,gCAAgC,EAAE,CAOzC;IAEI,GAAG,CAAC,WAAW,EAAE,kBAAkB;CAczC"}

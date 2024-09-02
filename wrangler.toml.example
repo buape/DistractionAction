@@ -1,0 +1,8 @@
+name = "distraction-action"
+main = "src/index.ts"
+compatibility_date = "2024-09-02"
+
+[vars]
+CLIENT_ID = ""
+PUBLIC_KEY = ""
+DISCORD_TOKEN = ""
